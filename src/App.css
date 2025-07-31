@@ -1,0 +1,731 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+header{
+    background-color:rgb(235, 232, 229);
+    width: 100%;
+   
+}
+section{
+    background-color:rgb(235, 232, 229);
+}
+.logo{
+    margin: 20px;
+    padding-left: 20px;
+}
+.menu{
+    margin: 30px;
+    display: flex;
+    float: right;
+    gap: 80px;
+}
+.list{
+   list-style: none;
+   margin: 20px;
+   display:flex;
+   gap: 80px;
+}
+.a1{
+    color: black;
+    text-decoration: none;
+}
+.a1:hover{
+    color: orangered;
+}
+.order{
+       height: 60px;
+       width: 200px;
+       border-radius: 10px;
+       border-width: 1.4px;
+       cursor: pointer;
+       color: gray;
+       background-color: white;
+       border-color: orangered;
+       font-size: 16px;
+}
+.order:hover{
+       background-color: orangered;
+       color: white;
+       transition: all 1s linear ;
+}
+.allfood{
+    margin-top: 150px;
+      margin-left: 600px;
+      width: 650px;
+      height: 600px;
+      position:relative;
+}
+.content{
+      margin: 40px;
+      position: absolute;
+      top: 250px;
+}
+.para{
+      color: orangered;
+}
+.honest{
+      font-size:90px;
+      margin-top: 40px;
+}
+.empty{
+      padding: 5px;
+      width: 550px;
+      margin-top: 50px;
+}
+.Reservation{
+       margin-top: 30px;
+       height: 60px;
+       width: 200px;
+       color: white;
+       border-radius: 10px;
+       border-width: 0px;
+       background-color: orangered;
+       border-color: orangered;
+       font-size: 16px;
+       cursor: pointer;
+}
+.Reservation:hover{
+       margin-top: 30px;
+       height: 60px;
+       width: 200px;
+       color: white;
+       border-radius: 10px;
+       border-width: 0px;
+       background-color: orange;
+       border-color: orangered;
+       font-size: 16px;
+       cursor: pointer;
+}
+.space{
+    height: 200px;
+    width: 100%;
+    background-color:rgb(235, 232, 229);
+}
+article{
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+.chef{
+     width: 600px;
+     height: 670px;
+     margin-left:600px;
+     position: relative;
+}
+.content1{
+      margin: 40px;
+      margin-top: 180px;
+      width: 550px;
+      position: absolute;
+      top: 1150px;
+}
+.para1{
+      color: orangered;
+}
+.honest1{
+      font-size:50px;
+      margin-top: 40px;
+}
+.empty1{
+      font-size: 18px;
+      padding: 5px;
+      width: 500px;
+      margin-top: 50px;
+}
+.features{
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.goods{
+    width: 200px;
+    height: 80px;
+}
+.fa-user{
+    padding: 5px;
+    font-size: xx-large;
+}
+.fa-utensils{
+    padding: 5px;
+    font-size: xx-large;
+}
+.content2{
+    margin-top: 100px;
+    background-color:rgb(235, 232, 229);
+    text-align: center;
+}
+.para2{
+    padding-top: 90px;
+    color: orangered;
+}
+.urge{
+    margin-left: 300px;
+    width: 650px;
+}
+.honest2{
+    margin-top: 20px;
+    font-size: 45px;
+}
+.features1{
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+    gap: 60px;
+}
+.parent{
+    position: relative;
+}
+.time{
+    width: 100px;
+    padding: 10px;
+    height: 70px;
+    background-color: rgb(235, 232, 229);
+}
+.time1{
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    background-color:orangered;
+}
+.time2{
+    width: 25px;
+    height: 25px;
+    margin-left: 45px;
+    text-align: center;
+    background-color: orangered;
+    border-color: orangered;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+}
+.a2{
+    color: black;
+    text-decoration: none;
+}
+.fooditems{
+    display: flex;
+}
+.items{
+       width: 415px;
+       height: 600px;
+       position: relative;
+}
+.roast{
+    width: 415px;
+    height: 299px;
+    position: relative;
+}
+.item{
+       width: 415px;
+       height: 600px;
+}
+.iimg{
+    width: 415px;
+    height: 600px;
+}
+.items:hover{
+       position: static;
+}
+.roast:hover{
+    position: static;
+}
+.iimg1{
+    width: 415px;
+    height: 299px;
+}
+.iimg2{
+    width: 415px;
+    height: 300px;
+}
+.dollar{
+    margin-top: 40px;
+    color: orangered;
+}
+.foodorder{
+    color: white;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.p1{
+    color: white;
+    margin-top: 10px;
+}
+.ordern{
+       margin-top: 30px;
+       height: 60px;
+       width: 200px;
+       color: white;
+       border-radius: 10px;
+       border-width: 0px;
+       background-color: orangered;
+       border-color: orangered;
+       font-size: 16px;
+       cursor: pointer;
+}
+.menu2{
+    position: absolute;
+    padding: 60px;
+    margin-top: 30px;
+}
+.menu2:hover{
+    position: absolute;
+    z-index: 1;
+    padding: 60px;
+    margin-top: 30px;
+}
+.menu3{
+    position: absolute;
+    padding: 10px;
+    margin-left: 60px;
+}
+.menu3:hover{
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    margin-left: 60px;
+}
+.foodr{
+    position: relative;
+    width: 500px;
+    height: 680px;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.content3{
+      margin-top: 2200px;
+      margin-left: 600px;
+      width: 550px;
+      position: absolute;
+      top: 1150px;
+}
+.para3{
+      color: orangered;
+}
+.honest2{
+      font-size:50px;
+      margin-top: 40px;
+}
+.empty2{
+      font-size: 18px;
+      padding: 5px;
+      width: 500px;
+      margin-top: 50px;
+}
+.empty3{
+      font-size: 18px;
+      padding: 5px;
+      width: 500px;
+      margin-top: 25px;
+}
+.learn{
+     height: 60px;
+     width: 200px;
+     margin-top: 50px;
+     border-radius: 10px;
+     border-width: 1.4px;
+     cursor: pointer;
+     color: gray;
+     background-color: white;
+     border-color: orangered;
+     font-size: 16px;
+}
+.learn:hover{
+     background-color: orangered;
+     color: white;
+     transition: all 1s linear;
+}
+.para4{
+    color: orangered;
+}
+.honest2{
+      font-size:40px;
+      margin-top: 40px;
+}
+.content4{
+      margin-top: 150px;
+}
+.imp{
+    margin-left:500px;
+}
+.fruit{
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+.schedule{
+    text-align: center;
+    position: absolute;
+    top: 4300px;
+}
+.dateandtime{
+    margin-top: 10px;
+    padding: 70px;
+    width:1000px;
+    display: flex;
+    position: absolute;
+    top: 4450px;
+    gap: 45px;
+    background-color: white;
+    margin-left: 60px;
+}
+.honest3{
+    margin-top: 40px;
+    font-size: 50px;
+}
+.customer{
+     height: 60px;
+     width: 250px;
+     border-radius: 4px;
+      padding-left: 30px;
+     cursor: pointer;
+     color: gray;
+     background-color:rgb(250, 247, 247);
+     border-color:rgb(250, 247, 247);
+     font-size: 16px;
+}
+.dates{
+     height: 60px;
+     width: 250px;
+     border-radius: 4px;
+     padding-left: 30px;
+     cursor: pointer;
+     color: gray;
+     border-style: unset;
+     background-color:rgb(250, 247, 247);
+     border-color:rgb(250, 247, 247);
+     font-size: 16px;
+}
+.times{
+     height: 60px;
+     width: 250px;
+     border-radius: 4px;
+     border-style: unset;
+      padding-left: 30px;
+     cursor: pointer;
+     color: gray;
+     background-color:rgb(250, 247, 247);
+     border-color:rgb(250, 247, 247);
+     font-size: 16px;
+}
+.book{
+     height: 60px;
+     width: 220px;
+     border-width: 1px;
+     border-radius: 10px;
+     cursor: pointer;
+     color:white;
+     background-color:orangered;
+     border-color:orangered;
+     font-size: 16px;
+}
+.book:hover{
+     height: 60px;
+     width: 220px;
+     border-width: 1px;
+     border-radius: 10px;
+     cursor: pointer;
+     color:white;
+     background-color:rgb(205, 9, 9);
+     border-color:orangered;
+     font-size: 16px;
+}
+.content5{
+    text-align: center;
+    background-color:rgb(255, 250, 255);
+}
+.para5{
+    padding-top: 200px;
+    font-size: 18px;
+      color: orangered;
+}
+.honest4{
+    margin-top: 40px;
+    font-size: 50px;
+}
+.cards{
+    display: flex;
+    padding-bottom: 200px;
+}
+.card1{
+    width: 350px;
+    height: 350px;
+    padding: 60px;
+}
+.card2{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    padding: 60px;
+}
+.card3{
+    width: 350px;
+    height: 350px;
+    padding: 60px;
+}
+.fa-user-secret{
+    font-size: xxx-large;
+}
+.fa-bowl-food{
+    font-size: xxx-large;
+}
+.ca1{
+    display: block;
+    margin-top: 40px;
+    font-size:20px;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+.ca2{
+    display: block;
+    margin-top: 40px;
+    font-size:20px;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+.ca3{
+    display: block;
+    margin-top: 40px;
+    font-size:20px;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+.cp{
+    padding: 10px;
+    margin-top: 15px;
+    color: grey;
+}
+.cherrys{
+    position: relative;
+    width: 100%;
+    height: 630px;
+}
+.mailid{
+    margin-left: 650px;
+    position: absolute;
+    top: 6000px;
+    width: 600px;
+}
+.para6{
+    color: orangered;
+    font-size: 16px;
+    
+    
+}
+.honest5{
+    margin-top: 40px;
+    font-size: 50px;
+}
+.empty4{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.email{
+    margin-top: 40px;
+    color: gray;
+    font-size: 20px;
+    padding: 8px;
+    padding-left: 50px;
+    width: 494px;
+    height: 40px;
+    position: relative;
+}
+.sub{
+    width: 200px;
+    height: 40px;
+    background-color: orangered;
+    font-size: 18px;
+    text-align: center;
+    padding: 3px;
+    padding-top: 16px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    bottom:0px;
+    margin-bottom: 1px;
+    margin-left: 350px;
+}
+.content7{
+    margin-top: 240px;
+    text-align: center;
+}
+.para7{
+    color: orangered;
+}
+.honest6{
+    margin-top: 40px;
+    font-size: 50px;
+}
+.lcards{
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+}
+.lcard{
+    width: 350px;
+    height: 400px;
+}
+.chefspecial{
+    width: 350px;
+    height: 400px;
+    position: relative;
+}
+#specialcard{
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    background-color: rgb(248, 250, 252);
+    top: 7200px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.pspecial{
+    padding: 10px;
+    color: gray;
+}
+.aspecial{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#specialcard:hover{
+    margin-left: 50px;
+    border-radius: 5px;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    top: 7200px;
+    background-color: orangered;
+    color: white;
+}
+.pspecial:hover{
+    padding: 10px;
+    color:white;
+}
+.aspecial:hover{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+.lastpage{
+    position: absolute;
+    top: 7550px;
+}
+.logo1{
+    margin: 20px;
+    padding-left: 20px;
+}
+.blackwood{
+    position: relative;
+    width:100%;
+}
+.foodertable{
+    margin-top: 20px;
+    display: flex;
+    float: right;
+    margin-left: 250px;
+    gap: 60px;
+}
+.fooderhead1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+.fooderhead2{
+    font-size: 20px;
+    font-weight: bold;
+     color: white;
+    margin-bottom: 25px;
+}
+.fooderhead3{
+    font-size: 20px;
+    font-weight: bold;
+     color: white;
+    margin-bottom: 25px;
+}
+.foodline{
+    list-style: none;
+    color:gray;
+    padding: 10px;
+}
+.foodline:hover{
+    list-style: none;
+    color:orangered;
+    padding: 10px;
+    transform:translatex(5px);
+    transition: all 1s linear;
+}
+.fooderlink{
+    text-decoration: none;
+}
+.imagetable{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 400px;
+    height: 260px;
+}
+.blackfoodi{
+    width: 120px;
+    height: 120px;
+}
+.lastpage1{
+    margin-top: 500px;
+    margin-left: 20px;
+}
+.fa-heart{
+    color: orangered;
+}
+.lasta{
+    color: orangered;
+    text-decoration: none;
+    cursor: pointer;
+}
+.endline{
+    display: inline;
+}
+.lastnav{
+    display: flex;
+    float: right;
+    gap: 20px;
+}
+.lastd{
+    width: 50px;
+    height: 2px;
+    background-color: gray;
+    margin-top: 15px;
+}
+.fa-twitter{
+    margin-top: 5px;
+    color: gray;
+    font-size: large;
+}
+.fa-facebook-f{
+    margin-top: 5px;
+    color: gray;
+    font-size: large;
+}
+.fa-internet-explorer{
+    margin-top: 5px;
+    color: gray;
+    font-size: large;
+}
+.fa-instagram{
+    margin-top: 5px;
+    color: gray;
+    font-size: large;
+}
+
