@@ -255,7 +255,7 @@ function App() {
           </div>
         </div>
       </footer>
-      <h1>Come to Again! welcome from jana</h1>
+
     </>
   );
 }
